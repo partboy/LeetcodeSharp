@@ -41,12 +41,17 @@
   <ItemGroup>
     <Compile Include="AddDigits.cs" />
     <Compile Include="CompareVersionNumbers.cs" />
+    <Compile Include="ContainsDuplicate.cs" />
+    <Compile Include="ContainsDuplicateSolutionII.cs" />
     <Compile Include="CountPrimes.cs" />
     <Compile Include="HappyNumber.cs" />
+    <Compile Include="MergeSortedArray.cs" />
+    <Compile Include="PlusOne.cs" />
     <Compile Include="PowerofTwo.cs" />
     <Compile Include="RectangleArea.cs" />
     <Compile Include="RotateArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleNumberIII.cs" />
     <Compile Include="SummaryRanges.cs" />
     <Compile Include="UglyNumber.cs" />
   </ItemGroup>
