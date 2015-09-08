@@ -5,6 +5,7 @@ using System.Text;
 
 namespace LeetcodeSharp
 {
+    //https://leetcode.com/problems/First-Bad-Version/
     public class FirstBadVersionSolution : VersionControl
     {
         public int FirstBadVersion(int n)

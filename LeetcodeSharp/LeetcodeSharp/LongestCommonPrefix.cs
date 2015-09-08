@@ -5,6 +5,7 @@ using System.Text;
 
 namespace LeetcodeSharp
 {
+    //https://leetcode.com/problems/Longest-Common-Prefix/
     public class LongestCommonPrefixSolution
     {
         public string LongestCommonPrefix(string[] strs)
