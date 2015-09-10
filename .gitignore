@@ -3,3 +3,6 @@
 **/bin
 **/obj
 LeetcodeSharp/LeetcodeSharp.sln
+LeetcodeSharp/LeetcodeSharp/LeetcodeSharp.csproj.user
+*.sln
+LeetcodeSharp/LeetcodeSharp.sln
