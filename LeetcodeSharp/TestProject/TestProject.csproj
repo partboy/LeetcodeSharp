@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B4F62E0C-79C8-4A9E-812E-19688213DA87}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{A0DBE7E5-7730-44AF-8D02-E79FF3515BA7}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LeetcodeSharp</RootNamespace>
-    <AssemblyName>LeetcodeSharp</AssemblyName>
+    <RootNamespace>TestProject</RootNamespace>
+    <AssemblyName>TestProject</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -39,31 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddDigits.cs" />
-    <Compile Include="CompareVersionNumbers.cs" />
-    <Compile Include="ContainsDuplicate.cs" />
-    <Compile Include="ContainsDuplicateSolutionII.cs" />
-    <Compile Include="CountAndSay.cs" />
-    <Compile Include="CountPrimes.cs" />
-    <Compile Include="ExcelSheetColumnNumber.cs" />
-    <Compile Include="ExcelSheetColumnTitle.cs" />
-    <Compile Include="HappyNumber.cs" />
-    <Compile Include="IsomorphicStrings.cs" />
-    <Compile Include="LengthofLastWord.cs" />
-    <Compile Include="MajorityElement.cs" />
-    <Compile Include="MergeSortedArray.cs" />
-    <Compile Include="Numberof1Bits.cs" />
-    <Compile Include="PascalTriangle.cs" />
-    <Compile Include="PascalTriangleII.cs" />
-    <Compile Include="PlusOne.cs" />
-    <Compile Include="PowerofTwo.cs" />
-    <Compile Include="RectangleArea.cs" />
-    <Compile Include="RotateArray.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SingleNumberIII.cs" />
-    <Compile Include="SummaryRanges.cs" />
-    <Compile Include="UglyNumber.cs" />
-    <Compile Include="ValidAnagram.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LeetcodeSharp\LeetcodeSharp.csproj">
+      <Project>{b4f62e0c-79c8-4a9e-812e-19688213da87}</Project>
+      <Name>LeetcodeSharp</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
