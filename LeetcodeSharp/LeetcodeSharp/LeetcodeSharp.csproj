@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddBinary.cs" />
     <Compile Include="AddDigits.cs" />
     <Compile Include="CompareVersionNumbers.cs" />
     <Compile Include="ContainsDuplicate.cs" />
@@ -58,12 +59,16 @@
     <Compile Include="PlusOne.cs" />
     <Compile Include="PowerofTwo.cs" />
     <Compile Include="RectangleArea.cs" />
+    <Compile Include="RemoveDuplicatesfromSortedArray.cs" />
+    <Compile Include="ReverseBits.cs" />
+    <Compile Include="ReverseInteger.cs" />
     <Compile Include="RotateArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SingleNumberIII.cs" />
     <Compile Include="SummaryRanges.cs" />
     <Compile Include="UglyNumber.cs" />
     <Compile Include="ValidAnagram.cs" />
+    <Compile Include="ZigZagConversion.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
