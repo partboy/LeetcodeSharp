@@ -17,38 +17,75 @@ namespace LeetcodeSharp
                 return s;
 
             var length = s.Length;
-            char[,] array = new char[numRows, length / 2 + 1];
-            int column = 0;
-            for (int i = 0; i < length; )
+            char[] newarray = new char[length];
+            var width = GetMaxColumnIndex(length, numRows);
+            var partWidth = numRows - 1;
+            int index = 0;
+            for (int row = 0; row < numRows; row++)
             {
-                for (int r = 0; i < length && r < numRows; )
+                int positionInRow = 0;
+                var positionInArray = PositionToIndex(row, positionInRow, numRows);
+                if (positionInArray >= 0 && positionInArray < length)
+                    newarray[index++] = s[positionInArray];
+
+                while (positionInRow < width)
                 {
-                    array[r, column] = s[i];
-                    i++;
-                    r++;
-                }
-                for (int r = numRows - 2; i < length && r > 0; )
-                {
-                    column++;
-                    array[r, column] = s[i];
-                    i++;
-                    r--;
-                }
-                column++;
-            }
-            StringBuilder builder = new StringBuilder(length);
-            for (int r = 0; r < numRows; r++)
-            {
-                for (int c = 0; c < length / 2 + 1; c++)
-                {
-                    var character = array[r, c];
-                    if (character != '\0')
+                    var internal1 = numRows - 1 - row;
+                    if (internal1 > 0)
                     {
-                        builder.Append(character);
+                        positionInRow += internal1;
+                        if (positionInRow >= width)
+                            break;
+                        else
+                        {
+                            var position1 = PositionToIndex(row, positionInRow, numRows);
+                            if (position1 >= 0 && position1 < length)
+                                newarray[index++] = s[position1];
+                        }
+                    }
+                    var interval2 = row;
+                    if (interval2 > 0)
+                    {
+                        positionInRow += interval2;
+                        if (positionInRow >= width)
+                            break;
+                        else
+                        {
+                            var position2 = PositionToIndex(row, positionInRow, numRows);
+                            if (position2 >= 0 && position2 < length)
+                                newarray[index++] = s[position2];
+                        }
                     }
                 }
             }
-            return builder.ToString();
+            return new string(newarray);
+        }
+
+        private int GetMaxColumnIndex(int stringLength, int numRows)
+        {
+            var partNumbers = 2 * numRows - 2;
+            var partCount = stringLength / partNumbers;
+            var partsWidth = partCount * (numRows - 1);
+            if (stringLength % partNumbers < numRows)
+                return partsWidth + 1;
+            else
+                return partsWidth + 1 + stringLength % partNumbers - numRows;
+        }
+
+        private int PositionToIndex(int row, int column, int rowNumbers)
+        {
+            var partNumber = 2 * rowNumbers - 2;
+            var partWidth = rowNumbers - 1;
+            var previousPartCount = column / partWidth;
+            var currentIndex = previousPartCount * partNumber - 1;
+            var columnIndexInPart = column % partWidth;
+            if (columnIndexInPart == 0)
+                currentIndex += row + 1;
+            else if (columnIndexInPart == rowNumbers - row - 1)
+                currentIndex += rowNumbers + columnIndexInPart;
+            else
+                return -1;
+            return currentIndex;
         }
     }
 }
