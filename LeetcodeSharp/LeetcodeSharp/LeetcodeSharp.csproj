@@ -55,6 +55,7 @@
     <Compile Include="HappyNumber.cs" />
     <Compile Include="HouseRobber.cs" />
     <Compile Include="IsomorphicStrings.cs" />
+    <Compile Include="LCAofBST.cs" />
     <Compile Include="LengthofLastWord.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="MajorityElement.cs" />
@@ -86,7 +87,6 @@
     <Compile Include="SummaryRanges.cs" />
     <Compile Include="UglyNumberII.cs" />
     <Compile Include="UglyNumber.cs" />
-    <Compile Include="UglyNumberII.cs" />
     <Compile Include="ValidAnagram.cs" />
     <Compile Include="ValidPalindrome.cs" />
     <Compile Include="ValidSudoku.cs" />
