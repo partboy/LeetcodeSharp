@@ -86,6 +86,7 @@
     <Compile Include="SingleNumberIII.cs" />
     <Compile Include="StringtoInteger.cs" />
     <Compile Include="SummaryRanges.cs" />
+    <Compile Include="SymmetricTree.cs" />
     <Compile Include="UglyNumberII.cs" />
     <Compile Include="UglyNumber.cs" />
     <Compile Include="ValidAnagram.cs" />
