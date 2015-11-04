@@ -55,6 +55,7 @@
     <Compile Include="FirstBadVersion.cs" />
     <Compile Include="HappyNumber.cs" />
     <Compile Include="HouseRobber.cs" />
+    <Compile Include="InvertBinaryTree.cs" />
     <Compile Include="IsomorphicStrings.cs" />
     <Compile Include="LCAofBST.cs" />
     <Compile Include="LengthofLastWord.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="MergeSortedArray.cs" />
     <Compile Include="MergeTwoSortedLists.cs" />
     <Compile Include="MoveZeroes.cs" />
+    <Compile Include="NimGame.cs" />
     <Compile Include="Numberof1Bits.cs" />
     <Compile Include="PalindromeNumber.cs" />
     <Compile Include="PascalTriangle.cs" />
