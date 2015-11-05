@@ -42,6 +42,8 @@
     <Compile Include="AddBinary.cs" />
     <Compile Include="AddDigits.cs" />
     <Compile Include="BalancedBinaryTree.cs" />
+    <Compile Include="BinaryTreeLevelOrderTraversal.cs" />
+    <Compile Include="BinaryTreeLevelOrderTraversalII.cs" />
     <Compile Include="ClimbingStairs.cs" />
     <Compile Include="CompareVersionNumbers.cs" />
     <Compile Include="ContainsDuplicate.cs" />
