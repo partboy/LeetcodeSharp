@@ -57,6 +57,7 @@
     <Compile Include="FirstBadVersion.cs" />
     <Compile Include="HappyNumber.cs" />
     <Compile Include="HouseRobber.cs" />
+    <Compile Include="IntersectionofTwoLinkedLists.cs" />
     <Compile Include="InvertBinaryTree.cs" />
     <Compile Include="IsomorphicStrings.cs" />
     <Compile Include="LCAofBST.cs" />
