@@ -44,6 +44,7 @@
     <Compile Include="BalancedBinaryTree.cs" />
     <Compile Include="BinaryTreeLevelOrderTraversal.cs" />
     <Compile Include="BinaryTreeLevelOrderTraversalII.cs" />
+    <Compile Include="BinaryTreePaths.cs" />
     <Compile Include="ClimbingStairs.cs" />
     <Compile Include="CompareVersionNumbers.cs" />
     <Compile Include="ContainsDuplicate.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="MoveZeroes.cs" />
     <Compile Include="NimGame.cs" />
     <Compile Include="Numberof1Bits.cs" />
+    <Compile Include="PalindromeLinkedList.cs" />
     <Compile Include="PalindromeNumber.cs" />
     <Compile Include="PascalTriangle.cs" />
     <Compile Include="PascalTriangleII.cs" />
