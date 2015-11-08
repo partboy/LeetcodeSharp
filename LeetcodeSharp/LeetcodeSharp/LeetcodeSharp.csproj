@@ -45,6 +45,7 @@
     <Compile Include="BinaryTreeLevelOrderTraversal.cs" />
     <Compile Include="BinaryTreeLevelOrderTraversalII.cs" />
     <Compile Include="BinaryTreePaths.cs" />
+    <Compile Include="BullsandCows.cs" />
     <Compile Include="ClimbingStairs.cs" />
     <Compile Include="CompareVersionNumbers.cs" />
     <Compile Include="ContainsDuplicate.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="FirstBadVersion.cs" />
     <Compile Include="HappyNumber.cs" />
     <Compile Include="HouseRobber.cs" />
+    <Compile Include="ImplementstrStr.cs" />
     <Compile Include="IntersectionofTwoLinkedLists.cs" />
     <Compile Include="InvertBinaryTree.cs" />
     <Compile Include="IsomorphicStrings.cs" />
