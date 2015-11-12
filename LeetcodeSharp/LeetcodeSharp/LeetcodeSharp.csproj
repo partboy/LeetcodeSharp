@@ -86,6 +86,7 @@
     <Compile Include="PathSum.cs" />
     <Compile Include="PlusOne.cs" />
     <Compile Include="PowerofTwo.cs" />
+    <Compile Include="ProductofArrayExceptSelf.cs" />
     <Compile Include="RangeSumQueryImmutable.cs" />
     <Compile Include="RectangleArea.cs" />
     <Compile Include="RemoveDuplicatesfromSortedArray.cs" />
