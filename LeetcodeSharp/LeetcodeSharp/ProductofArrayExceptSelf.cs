@@ -12,37 +12,21 @@ namespace LeetcodeSharp
         {
             if (nums == null || nums.Length == 0)
                 return new int[0];
-            int countZero = 0;
-            int indexOfZero = -1;
+            if (nums.Length == 1)
+                return nums;
             var products = new int[nums.Length];
+            int current = 1;
             for (int i = 0; i < nums.Length; i++)
             {
-                if (nums[i] == 0)
-                {
-                    if (countZero == 1)
-                        return products;
-                    else
-                    {
-                        countZero++;
-                        indexOfZero = i;
-                    }
-                }
+                products[i] = current;
+                current *= nums[i];
             }
-            if (countZero == 1)
+            current = 1;
+            for (int i = nums.Length - 1; i >= 0; i--)
             {
-                products[indexOfZero] = 1;
-                for (int i = 0; i < nums.Length; i++)
-                {
-                    if (i != indexOfZero)
-                        products[indexOfZero] *= nums[i];
-                }
-                return products;
+                products[i] *= current;
+                current *= nums[i];
             }
-            products[0] = 1;
-            for (int i = 1; i < nums.Length; i++)
-                products[0] *= nums[i];
-            for (int i = 1; i < nums.Length; i++)
-                products[i] = nums[i - 1] * (products[i - 1] / nums[i]);
             return products;
         }
     }

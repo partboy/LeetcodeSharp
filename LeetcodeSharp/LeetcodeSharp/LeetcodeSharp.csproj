@@ -44,9 +44,11 @@
     <Compile Include="BalancedBinaryTree.cs" />
     <Compile Include="BestTimetoBuyandSellStock.cs" />
     <Compile Include="BestTimetoBuyandSellStockII.cs" />
+    <Compile Include="BinaryTreeInorderTraversal.cs" />
     <Compile Include="BinaryTreeLevelOrderTraversal.cs" />
     <Compile Include="BinaryTreeLevelOrderTraversalII.cs" />
     <Compile Include="BinaryTreePaths.cs" />
+    <Compile Include="BinaryTreePreorderTraversal.cs" />
     <Compile Include="BullsandCows.cs" />
     <Compile Include="ClimbingStairs.cs" />
     <Compile Include="CompareVersionNumbers.cs" />
