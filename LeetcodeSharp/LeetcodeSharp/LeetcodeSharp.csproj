@@ -71,6 +71,7 @@
     <Compile Include="IsomorphicStrings.cs" />
     <Compile Include="LCAofBST.cs" />
     <Compile Include="LengthofLastWord.cs" />
+    <Compile Include="LinkedListCycle.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="MajorityElement.cs" />
     <Compile Include="MaximumDepthofBinaryTree.cs" />
@@ -111,6 +112,7 @@
     <Compile Include="SymmetricTree.cs" />
     <Compile Include="UglyNumberII.cs" />
     <Compile Include="UglyNumber.cs" />
+    <Compile Include="UniqueBinarySearchTrees.cs" />
     <Compile Include="ValidAnagram.cs" />
     <Compile Include="ValidPalindrome.cs" />
     <Compile Include="ValidParentheses.cs" />
