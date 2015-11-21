@@ -66,6 +66,7 @@
     <Compile Include="ImplementQueueusingStacks.cs" />
     <Compile Include="ImplementStackusingQueues.cs" />
     <Compile Include="ImplementstrStr.cs" />
+    <Compile Include="IntegertoRoman.cs" />
     <Compile Include="IntersectionofTwoLinkedLists.cs" />
     <Compile Include="InvertBinaryTree.cs" />
     <Compile Include="IsomorphicStrings.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="MajorityElement.cs" />
     <Compile Include="MaximumDepthofBinaryTree.cs" />
+    <Compile Include="MaximumSubarray.cs" />
     <Compile Include="MergeSortedArray.cs" />
     <Compile Include="MergeTwoSortedLists.cs" />
     <Compile Include="MinimumDepthofBinaryTree.cs" />
