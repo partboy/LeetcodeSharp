@@ -60,6 +60,7 @@
     <Compile Include="ExcelSheetColumnNumber.cs" />
     <Compile Include="ExcelSheetColumnTitle.cs" />
     <Compile Include="FactorialTrailingZeroes.cs" />
+    <Compile Include="FindMinimuminRotatedSortedArray.cs" />
     <Compile Include="FirstBadVersion.cs" />
     <Compile Include="HappyNumber.cs" />
     <Compile Include="HouseRobber.cs" />
