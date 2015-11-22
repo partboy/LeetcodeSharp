@@ -54,6 +54,7 @@
     <Compile Include="CompareVersionNumbers.cs" />
     <Compile Include="ContainsDuplicate.cs" />
     <Compile Include="ContainsDuplicateSolutionII.cs" />
+    <Compile Include="ConvertSortedArraytoBinarySearchTree.cs" />
     <Compile Include="CountAndSay.cs" />
     <Compile Include="CountPrimes.cs" />
     <Compile Include="DeleteNodeInALinkedList.cs" />
@@ -117,6 +118,7 @@
     <Compile Include="UglyNumberII.cs" />
     <Compile Include="UglyNumber.cs" />
     <Compile Include="UniqueBinarySearchTrees.cs" />
+    <Compile Include="UniquePaths.cs" />
     <Compile Include="ValidAnagram.cs" />
     <Compile Include="ValidPalindrome.cs" />
     <Compile Include="ValidParentheses.cs" />
