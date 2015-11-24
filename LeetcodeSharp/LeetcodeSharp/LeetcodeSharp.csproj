@@ -63,6 +63,7 @@
     <Compile Include="FactorialTrailingZeroes.cs" />
     <Compile Include="FindMinimuminRotatedSortedArray.cs" />
     <Compile Include="FirstBadVersion.cs" />
+    <Compile Include="GenerateParentheses.cs" />
     <Compile Include="GrayCode.cs" />
     <Compile Include="HappyNumber.cs" />
     <Compile Include="HouseRobber.cs" />
